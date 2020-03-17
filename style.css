@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+	max-width: 2000px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat';
+}
+body{
+	width: 62%;
+	height: 100vh;
+	margin-left: 19%;
+}
+@media 	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-resolution: 1.5dppx),
+only screen and (min-resolution: 144dpi)  {
+   #first_person img {
+      src = url("images/Layer_16@2x.png");
+   }
+   #second_person img {
+      src = url("images/Layer_19@2x.png");
+   }
+   #third_person img {
+      src = url("images/Layer_18@2x.png");
+   }
+}

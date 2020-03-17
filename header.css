@@ -1,0 +1,89 @@
+						/* TOP */
+
+header{
+	height: 1000px;
+}
+.top{
+	display: flex;
+}
+.logo{
+	margin-top: 28px;
+	font-size: 30px;
+	height: 30px;
+	color: #ffffff;
+	font-weight: 1000;
+	cursor: pointer;
+}
+.top_menu{
+	width: 100%;
+	text-align: right;
+	height: 20px;
+	margin-top: 28px;
+}	
+.top_menu ul{
+	list-style: none;
+}
+.top_menu li{
+	margin: 13px;
+	display: inline-block;
+	text-align: center;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 14px;
+}
+.icon-MAGNIFYING-GLASS::before,
+.icon-SHOPPING-CART::before {
+  	content: "\e901";
+  	color: #fff;
+  	font-size: 16px;
+}
+.icon-SHOPPING-CART::before {
+  	content: "\e900";
+}
+.icon-SHOPPING-CART:hover::before,
+.icon-MAGNIFYING-GLASS:hover::before {
+	color: #fce38a;
+}
+.top_menu li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.top_menu li a:hover {
+	transition: .5s;
+	padding-bottom: 5px;
+	color: #fce38a;
+	border-bottom: 2px solid #fce38a;
+}
+
+					/* CENTER */
+
+.main_greet{
+	display: block;
+	text-align: center;
+	margin-top: 110px;
+}
+.main_greet h2{
+	text-align: center;
+	color: #fff;
+	font-size: 72px;
+	font-family: 'Kaushan Script';
+	font-weight: 400;
+	padding-bottom: 40px;
+}
+.main_greet h1{
+	text-align: center;
+	color: #fff;
+	font-size: 150px;
+	font-weight: 900;
+	padding-bottom: 120px;
+}		
+.main_greet p{
+	display: inline;
+	text-align: center;
+	padding: 14px 40px;
+	border: 2px solid #fff;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	cursor: pointer;
+}
