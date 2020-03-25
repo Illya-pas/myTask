@@ -1,9 +1,11 @@
 .footer_items{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	margin: 20px 0 20px 0;
 	width: 100%;
 }
 .for_email{
-	margin-left: 40%;
 	display: inline-block;
 }
 .footer_items p{
